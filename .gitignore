@@ -1,0 +1,21 @@
+node_modules
+dist
+.env
+.env.local
+.DS_Store
+*.log
+.vercel
+.pglite
+test_*.png
+_test_*
+
+# tsc 编译产物（保留 src/vite-env.d.ts）
+*.d.ts
+!src/vite-env.d.ts
+tsconfig.tsbuildinfo
+tsconfig.node.tsbuildinfo
+*.tsbuildinfo
+.vite
+# 删除 tsc 编译出的 config .js 副本
+/drizzle.config.js
+/vite.config.js
