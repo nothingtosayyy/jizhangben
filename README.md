@@ -28,8 +28,6 @@ npm install
 npm run dev
 ```
 
-- 前端：http://localhost:5173
-- API：http://localhost:3001
 
 首次启动会自动创建管理员账号：
 - 用户名：`admin`
